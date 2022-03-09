@@ -25,3 +25,6 @@ set major = 'Biological Sciences' where major = "Biology"
 
 update student 
 set name = 'Johnson' where name ='Jack'
+
+-- Inserting New values 
+INSERT INTO student VALUES(10, 'Joseph', 'Economics', 4);
