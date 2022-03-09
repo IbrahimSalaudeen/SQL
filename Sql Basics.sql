@@ -28,3 +28,22 @@ set name = 'Johnson' where name ='Jack'
 
 -- Inserting New values 
 INSERT INTO student VALUES(10, 'Joseph', 'Economics', 4);
+
+-- Using queries to explore student table
+SELECT *
+FROM student;
+
+SELECT student.name, student.major
+FROM student;
+
+SELECT *
+FROM student
+WHERE name = 'Joseph';
+
+SELECT *
+FROM student
+WHERE student_id = 2;
+
+SELECT *
+FROM student
+WHERE major = 'Biology' AND student_id > 1;
